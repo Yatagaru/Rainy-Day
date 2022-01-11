@@ -33,7 +33,7 @@ function setup(){
 
     //criando gotas
    for (let I=0; I<maxDrops; I++){
-       drops.push (new Rain(random(0,400)),(random(0,400)))
+        drops.push (new Rain (random(0,400),random(0,400)))
    }
     
 }
